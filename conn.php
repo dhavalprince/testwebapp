@@ -7,10 +7,10 @@
 </form>
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "myedunet";
+$servername = "dmgserver";
+$username = "dhavalgohil";
+$password = "Mwnia@91";
+$dbname = "testnet";
   // Create connection
 $conn = new mysqli($servername, $username, $password,$dbname);
 
